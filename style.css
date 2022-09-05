@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 608px;
+     background: rgba(1, 79, 82, 0.63);
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 60px;
+     padding-top: 50px;
+}
+
+.plan {
+    width: 90%;
+}
+
+/* HEADER-SECTION */
+
+.header-section {
+    width: 90%;
+    height: 125px;
+    text-align: center;
+    border: 2px solid #454545;
+    margin: auto;
+}
+
+.header-section > h2 {
+    color: #fff;
+    text-decoration: overline;
+}
+
+.button {
+    color: #fff;
+    background: #a80139;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* MAIN-SECTION   */
+
+.main-section {
+    height: 200px;
+    text-align: center;
+    border:  2px solid #454545;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.main-section > h2 {
+    color: #fff;
+    text-decoration: overline;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 2px;
+    background: #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.image_1 {
+    background: url('./Images/beautifull\ girl\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_2 {
+    background: url('./Images/beautifull\ girl\ 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_3 {
+    background: url('./Images/beautifull\ girl\ 3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_4 {
+    background: url('./Images/beautifull\ girl\ 4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* FOOTER-SECTION */
+
+.footer-section {
+    height: 180px;
+    border: 2px solid #454545;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.footer-section > h2 {
+    text-align: center;
+    color: #fff;
+    text-decoration: overline;
+}
+
+.items {
+    color: rgb(110, 56, 43);
+    cursor: pointer;
+}
+
+/* HOVER */
+
+.button--1:hover {
+    color: #fff;
+    background: #0000ff;
+    border-radius: 0;
+}
+
+.button--2:hover {
+    color: #fff;
+    background: #008000;
+    border-radius: 0;
+}
+
+.button--3:hover {
+    color: #fff;
+    background: #000;
+    border-radius: 0;
+}
+
+.button--4:hover {
+    color: #fff;
+    background: #ffff00;
+    border-radius: 0;
+}
+
+.image:hover {
+    border-radius: 0;
+}
+
+.item--1:hover {
+    color: #ffff00;
+}
+
+.item--2:hover {
+    color: #fff;
+}
+
+.item--3:hover {
+    color: #000;
+}
+
+.item--4:hover {
+    color: #008000;
+}
+
+/* ACTIVE */
+
+.button--1:active {
+    color: #fff;
+    background: #03035c;
+    border-radius: 0;
+}
+
+.button--2:active {
+    color: #fff;
+    background: #033f03;
+    border-radius: 0;
+}
+
+.button--3:active {
+    color: #fff;
+    background: rgb(56, 53, 53);
+    border-radius: 0;
+}
+
+.button--4:active {
+    color: #fff;
+    background: #5a5a0e;
+    border-radius: 0;
+}
+
+.image_1:active {
+    background: url('./Images/beautifull\ girl\ 5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_2:active {
+    background: url('./Images/beautifull\ girl\ 6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_3:active {
+    background: url('./Images/beautifull\ girl\ 7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_4:active {
+    background: url('./Images/beautifull\ girl\ 8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
